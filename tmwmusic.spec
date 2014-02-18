@@ -1,13 +1,12 @@
 Name:		tmwmusic
-Version:	0.2
-Release:	%mkrel 2
+Version:	0.3
+Release:	1
 Summary:	The music for The Mana World
 Group:		Games/Other
 License:	GPLv2+
 Url:		http://themanaworld.org/
-Source0:	http://downloads.sourceforge.net/themanaworld/%{name}-%{version}.tar.gz
+Source0:	http://sourceforge.net/projects/themanaworld/files/TMW%20Music/0.3/%{name}-%{version}.tar.gz
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 Suggests:	tmw
 
@@ -18,12 +17,10 @@ This packages contains the music for The Mana World.
 %setup -q
 
 %install
-rm -rf %{buildroot}
 mkdir -p %{buildroot}%{_gamesdatadir}/tmw/
 cp -R data %{buildroot}%{_gamesdatadir}/tmw/
 
 %clean
-rm -rf %{buildroot}
 
 %files
 %defattr(0644,root,root,0755)
@@ -38,5 +35,6 @@ rm -rf %{buildroot}
 * Tue Jan 05 2010 Jérôme Brenier <incubusss@mandriva.org> 0.2-1mdv2010.1
 + Revision: 486409
 - import tmwmusic
+
 
 
