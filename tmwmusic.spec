@@ -1,6 +1,6 @@
 Name:		tmwmusic
 Version:	0.3
-Release:	1
+Release:	2
 Summary:	The music for The Mana World
 Group:		Games/Other
 License:	GPLv2+
