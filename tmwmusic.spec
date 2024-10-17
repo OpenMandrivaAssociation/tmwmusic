@@ -4,7 +4,7 @@ Release:	2
 Summary:	The music for The Mana World
 Group:		Games/Other
 License:	GPLv2+
-Url:		http://themanaworld.org/
+Url:		https://themanaworld.org/
 Source0:	http://sourceforge.net/projects/themanaworld/files/TMW%20Music/0.3/%{name}-%{version}.tar.gz
 BuildArch:	noarch
 
